@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adithya Shetty | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">
+        Nxt<span class="logo-accent">Sphere</span>
+      </a>
+
+      <div class="nav-right">
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Pure CSS Dark Mode Toggle -->
+        <label for="theme-toggle" class="theme-switch" title="Toggle theme">
+          <input type="checkbox" id="theme-toggle" class="theme-toggle-input" aria-label="Toggle dark mode">
+          <span class="theme-toggle-slider">
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <span class="theme-toggle-knob"></span>
+          </span>
+        </label>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h2 class="hero-welcome">Welcome to My Portfolio</h2>
+          <h1 class="hero-name">Adithya Shetty</h1>
+          <p class="hero-intro">
+            First-year B.Tech CSE (AI) student at NIAT, ALARD University. Passionate about software development, AI systems, and building innovative tech towards a career at MAANG.
+          </p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-shape-bg"></div>
+          <div class="avatar-ring-outer">
+            <div class="avatar-ring-inner">
+              <img src="images/profile-avatar.svg" alt="Adithya Shetty" class="hero-avatar">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="about-container">
+          <div class="about-content">
+            <p class="about-text">
+              I am a first-year Computer Science &amp; Engineering (AI) student at <strong>NIAT in ALARD University, Pune</strong>. Coding and exploring emerging technologies are my greatest passions, with a long-term goal of engineering high-impact software at top <strong>MAANG</strong> companies.
+            </p>
+            <p class="about-text">
+              My technical interests span full-stack web development, Python programming, and open-weight AI benchmarking. I also have a keen curiosity about human psychology and cognitive science, which helps me design intuitive, human-centered user experiences and robust software systems.
+            </p>
+            <p class="about-text">
+              Currently expanding my foundational knowledge in algorithms, data structures, and hands-on open-source development through competitive hackathons and collaborative projects.
+            </p>
+          </div>
+
+          <div class="about-visual">
+            <div class="about-card">
+              <img src="images/about-illustration.svg" alt="Academic journey" class="about-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="skill-name">HTML</h3>
+            <div class="progress-container">
+              <div class="progress-bar progress-html"></div>
+            </div>
+            <span class="progress-percent">96%</span>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="13.5" cy="6.5" r=".5" fill="currentColor"></circle>
+                <circle cx="17.5" cy="10.5" r=".5" fill="currentColor"></circle>
+                <circle cx="8.5" cy="7.5" r=".5" fill="currentColor"></circle>
+                <circle cx="6.5" cy="12.5" r=".5" fill="currentColor"></circle>
+                <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.563-2.512 5.563-5.563C22 6.5 17.5 2 12 2Z"></path>
+              </svg>
+            </div>
+            <h3 class="skill-name">CSS</h3>
+            <div class="progress-container">
+              <div class="progress-bar progress-css"></div>
+            </div>
+            <span class="progress-percent">94%</span>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2c5 0 5 3 5 3v2H9V6h6V4H9C5 4 4 6 4 9s1 5 5 5h1v-2H8c-2 0-3-1-3-3s1-3 3-3h4v1H7"></path>
+                <path d="M12 22c-5 0-5-3-5-3v-2h8v1h-6v2h6c4 0 5-2 5-5s-1-5-5-5h-1v2h2c2 0 3 1 3 3s-1 3-3 3h-4v-1h5"></path>
+                <circle cx="9" cy="6" r="1" fill="currentColor"></circle>
+                <circle cx="15" cy="18" r="1" fill="currentColor"></circle>
+              </svg>
+            </div>
+            <h3 class="skill-name">Python</h3>
+            <div class="progress-container">
+              <div class="progress-bar progress-python"></div>
+            </div>
+            <span class="progress-percent">90%</span>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="3"></rect>
+                <path d="M9 8v6a2 2 0 0 1-2 2H6"></path>
+                <path d="M13.5 16.5c1.2 0 2.2-.6 2.2-1.7 0-1-.7-1.5-1.6-1.8l-.6-.2c-.7-.2-1.1-.5-1.1-1 0-.6.6-1.1 1.4-1.1.8 0 1.4.4 1.7 1"></path>
+              </svg>
+            </div>
+            <h3 class="skill-name">JavaScript</h3>
+            <div class="progress-container">
+              <div class="progress-bar progress-js"></div>
+            </div>
+            <span class="progress-percent">68%</span>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="skill-name">Communication</h3>
+            <div class="progress-container">
+              <div class="progress-bar progress-comm"></div>
+            </div>
+            <span class="progress-percent">96%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Projects</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-media">
+              <img src="images/project-1.svg" alt="Injection Dojo" class="project-image">
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Injection Dojo</h3>
+              <div class="project-tags">
+                <span class="tag tag-accent">Hacktoberfest</span>
+                <span class="tag">Cybersecurity</span>
+                <span class="tag">AI Security</span>
+              </div>
+              <p class="project-desc">
+                A collaborative team platform built during Hacktoberfest providing a safe, interactive training ground for cybersecurity students to practice, simulate, and defend against AI prompt injection attacks.
+              </p>
+              <div class="project-actions">
+                <a href="https://github.com/sarthakchambhare16-wdym/injection-dojo" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                  View Project
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media">
+              <img src="images/project-2.svg" alt="Tinybench" class="project-image">
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Tinybench</h3>
+              <div class="project-tags">
+                <span class="tag tag-accent">Solo Project</span>
+                <span class="tag">Python</span>
+                <span class="tag">Open-Weight AI</span>
+              </div>
+              <p class="project-desc">
+                An open-source, lightweight benchmarking tool engineered to measure throughput, memory overhead, and latency across open-weight AI models with streamlined profiling metrics.
+              </p>
+              <div class="project-actions">
+                <a href="https://github.com/shettyadithyar76-prog/tinybench" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                  View Project
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-details">
+            <div class="section-header align-left">
+              <h2 class="section-title">Contact</h2>
+              <div class="title-underline"></div>
+            </div>
+
+            <ul class="contact-info-list">
+              <li class="contact-info-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-label">Name</span>
+                  <span class="contact-value">Adithya Shetty</span>
+                </div>
+              </li>
+
+              <li class="contact-info-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-label">Email</span>
+                  <a href="mailto:shettyadithyar76@gmail.com" class="contact-value contact-link">shettyadithyar76@gmail.com</a>
+                </div>
+              </li>
+
+              <li class="contact-info-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-label">Location</span>
+                  <span class="contact-value">Pune, Maharashtra, India</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-form-container">
+            <form action="#contact" method="POST" class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fullname" class="form-label">Full Name</label>
+                  <input type="text" id="fullname" name="fullname" class="form-input" placeholder="Your Full Name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="Your Email Address" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="Subject of your message" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" rows="5" class="form-textarea" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <div class="form-action">
+                <button type="submit" class="btn btn-submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p class="copyright-text">
+          &copy; 2026 Adithya Shetty. All rights reserved.
+        </p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/adithya-shetty-096229436/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2m1.4 9.74V9.93H5.06v8.57h2.8Z"/>
+          </svg>
+        </a>
+
+        <a href="https://github.com/shettyadithyar76-prog" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/>
+          </svg>
+        </a>
+
+        <a href="https://leetcode.com/u/Funke_Codez/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LeetCode Profile">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.357.702-1.824l4.319-4.38c.467-.467 1.125-.645 1.837-.645s1.357.195 1.823.662l2.697 2.606c.514.515 1.365.497 1.9-.038.535-.536.553-1.387.039-1.901l-2.609-2.636a5.16 5.16 0 0 0-3.79-1.46c-1.442 0-2.842.57-3.864 1.593L3.46 12.448c-1.023 1.022-1.592 2.423-1.592 3.865 0 1.441.569 2.842 1.592 3.864l4.332 4.363c1.022 1.023 2.422 1.593 3.864 1.593 1.442 0 2.842-.57 3.864-1.593l2.609-2.636c.514-.514.496-1.365-.039-1.9-.535-.536-1.386-.554-1.9-.038zM20.811 13.01H10.607c-.742 0-1.344.602-1.344 1.344s.602 1.344 1.344 1.344h10.204c.742 0 1.344-.602 1.344-1.344s-.602-1.344-1.344-1.344z"/>
+          </svg>
+        </a>
+
+        <a href="https://www.kaggle.com/adithyacodez" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Kaggle Profile">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19 22.5a.3.3 0 0 1-.3.3h-3.4a.5.5 0 0 1-.4-.2l-5.6-7-1.8 1.7v5.2a.3.3 0 0 1-.3.3H4.4a.3.3 0 0 1-.3-.3V1.8a.3.3 0 0 1 .3-.3h2.8a.3.3 0 0 1 .3.3v15.6l6.9-6.9a.5.5 0 0 1 .4-.2h3.6a.3.3 0 0 1 .3.3c0 .1 0 .2-.1.3l-7.4 7.2 7.6 8.8c.1.1.1.2.1.3z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
